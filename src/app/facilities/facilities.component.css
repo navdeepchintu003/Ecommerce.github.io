@@ -1,0 +1,42 @@
+.facilities{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.facilities h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+.facilities p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 10px;
+
+}
+.row{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-around;
+    overflow: hidden;
+}
+.col{
+    flex-basis: 30%;
+    border-radius: 10px;
+    margin-bottom: 10%;
+    text-align: left;
+}
+.col img{
+    width: 100%;
+    border-radius: 12px;
+}
+.col p{
+    padding: 0;
+}
+.col h3{
+    margin-top: 15px;
+    margin-bottom:15px ;
+    text-align: left;
+}

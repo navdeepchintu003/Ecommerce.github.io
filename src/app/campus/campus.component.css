@@ -1,0 +1,63 @@
+.campus{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    
+}
+.campus h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+.campus p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 10px;
+}
+.row{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+
+}
+.col{
+    flex-basis: 30%;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10%;
+}
+.col img{
+    width: 100%;
+    display: block;
+}
+.title{
+    /* background: rgba(256,0,0,0.7); */
+    background: transparent;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+}
+.title:hover{
+    background: rgba(256,0,0,0.7);
+}
+.title h3{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    /* width: 100%; */
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.4s;
+}
+.title:hover h3{
+    opacity: 1;
+    bottom: 60%;
+}

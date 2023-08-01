@@ -1,0 +1,38 @@
+.cta{
+    margin: 100px auto;
+    width: 70%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../../assets/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    padding: 100px 0;
+    text-align: center;
+}
+.cta h1{
+    color: #FFF;
+    margin-bottom: 40px;
+    padding: 0;
+}
+.cta .btn{
+    border: 1px solid wheat;
+    background-color:wheat;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    color: white;
+}
+.cta .btn:hover{
+    border: 1px solid wheat;
+    background: wheat;
+    /* transition:translateY(-5%); */
+    transition: 2s;
+}
+@media screen and (max-width:700px) {
+    .cta h1{
+        font-size: 20px;
+    }
+    
+}

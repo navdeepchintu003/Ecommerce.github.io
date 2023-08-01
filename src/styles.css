@@ -1,0 +1,41 @@
+
+/* Padding is the space between the content and the border of an element, while margin is the space between the border of an element and its neighboring elements.*{ */
+*{ padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+@media screen and (max-width:700px) {
+    .text-box h1{
+        font-size: 22px;
+    }
+    .nav-links ul li{
+        display: block;      
+      
+    }
+    .nav-links{
+        height: 100vh;
+        width: 200px;
+        background-color: gray;
+        top: 0;
+        right: -300px;
+        position: absolute;
+        text-align: left;
+        z-index: 2;
+    }
+    nav .bi{
+        color: aliceblue;
+        display: block;
+        margin: 10px;   
+        cursor: pointer;
+        font-size: 32px;
+    }
+    .nav-links{
+        padding: 30px;
+    }   
+}
+@media screen and (max-width:700px){
+    .row{
+        flex-direction: column;
+    }
+    
+}
